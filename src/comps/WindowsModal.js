@@ -35,7 +35,7 @@ const WindowsModal = () => {
     window.addEventListener("keydown", dismissHandle);
 
     return () => window.addEventListener("keydown", dismissHandle);
-  }, []);
+  }, [dispatch]);
 
   return (
     <motion.div
