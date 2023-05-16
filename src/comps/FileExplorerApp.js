@@ -39,14 +39,9 @@ import { motion } from "framer-motion";
 
 const blueprint = [
   {
-    name: "CV_TyreseSong.pdf",
-    size: "1.68 MB",
-    modify: "16/11/2021 13:44",
-  },
-  {
-    name: "RESUME_TyreseSong.pdf",
-    size: "28.8 KB",
-    modify: "25/11/2021 17:56",
+    name: "Full Stack Web Developer Resume Of Tyrese Song.pdf",
+    size: "969 KB",
+    modify: "05/13/2023 14:23",
   },
 ];
 
@@ -61,6 +56,73 @@ const FileExplorerApp = ({
   maximized = false,
 }) => {
   const [files] = useState([
+    ...blueprint,
+    ...blueprint,
+    ...blueprint,
+    ...blueprint,
+    ...blueprint,
+    ...blueprint,
+    ...blueprint,
+    ...blueprint,
+    ...blueprint,
+    ...blueprint,
+    ...blueprint,
+    ...blueprint,
+    ...blueprint,
+    ...blueprint,
+    ...blueprint,
+    ...blueprint,
+    ...blueprint,
+    ...blueprint,
+    ...blueprint,
+    ...blueprint,
+    ...blueprint,
+    ...blueprint,
+    ...blueprint,
+    ...blueprint,
+    ...blueprint,
+    ...blueprint,
+    ...blueprint,
+    ...blueprint,
+    ...blueprint,
+    ...blueprint,
+    ...blueprint,
+    ...blueprint,
+    ...blueprint,
+    ...blueprint,
+    ...blueprint,
+    ...blueprint,
+    ...blueprint,
+    ...blueprint,
+    ...blueprint,
+    ...blueprint,
+    ...blueprint,
+    ...blueprint,
+    ...blueprint,
+    ...blueprint,
+    ...blueprint,
+    ...blueprint,
+    ...blueprint,
+    ...blueprint,
+    ...blueprint,
+    ...blueprint,
+    ...blueprint,
+    ...blueprint,
+    ...blueprint,
+    ...blueprint,
+    ...blueprint,
+    ...blueprint,
+    ...blueprint,
+    ...blueprint,
+    ...blueprint,
+    ...blueprint,
+    ...blueprint,
+    ...blueprint,
+    ...blueprint,
+    ...blueprint,
+    ...blueprint,
+    ...blueprint,
+    ...blueprint,
     ...blueprint,
     ...blueprint,
     ...blueprint,
@@ -88,7 +150,7 @@ const FileExplorerApp = ({
         style={
           !maximized
             ? { width: width, height: height }
-            : { width: "100vw", height: "93vh" }
+            : { width: "100vw", height: "96vh" }
         }
         className={`inverse-toggle absolute z-10 overflow-hidden rounded-md border-[1px] border-gray-300 bg-gray-900 text-sm leading-normal text-gray-100 subpixel-antialiased shadow-lg`}
       >
@@ -248,10 +310,10 @@ const FileExplorerApp = ({
               </div>
             </div>
             <div
-              className={`col-span-12 grid h-[73.5vh] lg:col-span-10 ${
+              className={`col-span-12 grid lg:col-span-10 ${
                 maximized
                   ? "scroll-y-hidden lg:h-71vh lg:overflow-y-scroll"
-                  : "overflow-y-scroll lg:h-[57.8vh]"
+                  : "overflow-y-scroll lg:h-[64vh]"
               }`}
             >
               <table className="w-full text-left">
@@ -275,7 +337,7 @@ const FileExplorerApp = ({
                       className="hover:bg-white hover:bg-opacity-10"
                       onClick={() => {
                         window.open(
-                          `https://TyreseSong.w3spaces.com/${file.name}`,
+                          `/${file.name}`,
                           "_blank",
                           WIN_FEATURES
                         );

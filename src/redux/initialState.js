@@ -51,7 +51,7 @@ const initialState = {
       height: 28,
       onClick: () => {
         window.open(
-          "https://www.google.com/search?q=Tyrese+Song+github",
+          "https://www.google.com",
           "_blank",
           WIN_FEATURES
         );
@@ -95,7 +95,7 @@ const initialState = {
       height: 35,
       onClick: () => {
         window.open(
-          "https://www.google.com/search?q=Tyrese+Song+github",
+          "https://www.google.com",
           "_blank",
           WIN_FEATURES
         );
