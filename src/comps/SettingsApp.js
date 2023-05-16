@@ -102,7 +102,7 @@ const SettingsApp = ({
                 />
                 <div className="flex flex-col items-start justify-center ml-3">
                   <p>Tyrese Song</p>
-                  <p>Tyrese.netuchi@gmail.com</p>
+                  <p>bowenmanuel48@gmail.com@gmail.com</p>
                 </div>
               </div>
               {/* Search */}

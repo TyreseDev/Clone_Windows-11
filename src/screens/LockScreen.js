@@ -251,7 +251,7 @@ const LockScreen = () => {
         >
           <NotificationFrom
             from="Tyrese Song"
-            image={profiles.Tyrese}
+            image={profiles.tyrese}
             message={
               <>
                 Hello There!

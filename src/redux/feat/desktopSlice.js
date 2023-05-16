@@ -5,7 +5,7 @@ import initialState from "../initialState";
 const desktopSlice = createSlice({
   name: "desktop",
   initialState: {
-    profileImage: profiles.Tyrese,
+    profileImage: profiles.tyrese,
     activeWindows: [...initialState.activeWindows],
     wallpaper: wallpapers[0],
     battery: {

@@ -55,7 +55,7 @@ const CommandLineApp = ({
 
       if (command === "linkedin") {
         window.open(
-          "https://linkedin.com/in/Tyrese-Song",
+          "https://linkedin.com/in/TyreseSong",
           "_blank",
           WIN_FEATURES
         );
@@ -65,7 +65,7 @@ const CommandLineApp = ({
 
       if (command === "github") {
         window.open(
-          "https://github.com/Tyrese-Song",
+          "https://github.com/TyreseSong",
           "_blank",
           WIN_FEATURES
         );
