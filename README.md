@@ -11,7 +11,7 @@
 [![License](https://img.shields.io/badge/License-MIT-blue)](#license)
 [![issues - Windows-11-OS-Clone](https://img.shields.io/github/issues/TyreseSong/Windows-11-OS-Clone)](https://github.com/TyreseSong/Windows-11-OS-Clone/issues)
 
-Deployed at Vercel - [https://windows-11-os-clone_tyresesong.vercel.app](https://windows-11-os-clone_tyresesong.vercel.app)
+Deployed at Netlify - [https://windows-11-os-clone-tyresesong.netlify.app/](https://windows-11-os-clone-tyresesong.netlify.app/)
 
 ## Credits
 
