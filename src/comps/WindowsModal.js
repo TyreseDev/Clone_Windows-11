@@ -78,7 +78,7 @@ const WindowsModal = () => {
               src={profileImage}
               alt=""
             />
-            <span>Deri Kurniawan</span>
+            <span>Tyrese Song</span>
           </div>
           <IoPower size={20} />
         </div>

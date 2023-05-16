@@ -26,7 +26,7 @@ const CommandLineApp = ({
 }) => {
   const [terminalHistory, setTerminalHistory] = useState([]);
   const [currentTerminalDirectory, setCurrentTerminalDirectory] =
-    useState("C:\\Users\\Deri");
+    useState("C:\\Users\\Tyrese");
 
   const dispatch = useDispatch();
 
@@ -55,7 +55,7 @@ const CommandLineApp = ({
 
       if (command === "linkedin") {
         window.open(
-          "https://linkedin.com/in/deri-kurniawan",
+          "https://linkedin.com/in/Tyrese-Song",
           "_blank",
           WIN_FEATURES
         );
@@ -65,7 +65,7 @@ const CommandLineApp = ({
 
       if (command === "github") {
         window.open(
-          "https://github.com/deri-kurniawan",
+          "https://github.com/Tyrese-Song",
           "_blank",
           WIN_FEATURES
         );
@@ -75,7 +75,7 @@ const CommandLineApp = ({
 
       if (command === "whatsapp") {
         const textMessage = encodeURIComponent(
-          "Hello Deri Kurniawan!, [your message here]"
+          "Hello Tyrese Song!, [your message here]"
         );
         window.open(
           `https://wa.me/+625720959031?text=${textMessage}`,

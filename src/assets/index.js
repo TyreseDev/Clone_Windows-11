@@ -30,7 +30,7 @@ const ASSETS = {
       },
     },
     profiles: {
-      deri: imagesProfiles("deri.jpg"),
+      Tyrese: imagesProfiles("Tyrese.jpg"),
     },
     wallpapers: [
       imagesWallpapers("1.png"),

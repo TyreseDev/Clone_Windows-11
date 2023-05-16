@@ -35,7 +35,7 @@ const initialState = {
       height: 28,
       onClick: () => {
         const textMessage = encodeURIComponent(
-          "Hello Deri Kurniawan!, [your message here]"
+          "Hello Tyrese Song!, [your message here]"
         );
         window.open(
           `https://wa.me/+6285720959031?text=${textMessage}`,
@@ -51,7 +51,7 @@ const initialState = {
       height: 28,
       onClick: () => {
         window.open(
-          "https://www.google.com/search?q=Deri+Kurniawan+github",
+          "https://www.google.com/search?q=Tyrese+Song+github",
           "_blank",
           WIN_FEATURES
         );
@@ -95,7 +95,7 @@ const initialState = {
       height: 35,
       onClick: () => {
         window.open(
-          "https://www.google.com/search?q=Deri+Kurniawan+github",
+          "https://www.google.com/search?q=Tyrese+Song+github",
           "_blank",
           WIN_FEATURES
         );
@@ -108,7 +108,7 @@ const initialState = {
       height: 35,
       onClick: () => {
         window.open(
-          "https://github.com/deri-kurniawan",
+          "https://github.com/Tyrese-Song",
           "_blank",
           WIN_FEATURES
         );
@@ -121,7 +121,7 @@ const initialState = {
       height: 35,
       onClick: () => {
         window.open(
-          "https://linkedin.com/in/deri-kurniawan",
+          "https://linkedin.com/in/Tyrese-Song",
           "_blank",
           WIN_FEATURES
         );
@@ -143,7 +143,7 @@ const initialState = {
       height: 35,
       onClick: () => {
         const textMessage = encodeURIComponent(
-          "Hello Deri Kurniawan!, [your message here]"
+          "Hello Tyrese Song!, [your message here]"
         );
         window.open(
           `https://wa.me/+625720959031?text=${textMessage}`,
@@ -204,7 +204,7 @@ const initialState = {
       icon: icons.apps.winMail,
       width: 35,
       height: 35,
-      onClick: () => (window.location.href = "mailto:deri.netuchi@gmail.com"),
+      onClick: () => (window.location.href = "mailto:Tyrese.netuchi@gmail.com"),
     },
     // {
     //   name: "Search",
@@ -247,7 +247,7 @@ const initialState = {
       height: 35,
       onClick: () => {
         window.open(
-          "https://github.com/deri-kurniawan/deri-kurniawan.github.io",
+          "https://github.com/Tyrese-Song/Tyrese-Song.github.io",
           "_blank",
           WIN_FEATURES
         );
@@ -260,7 +260,7 @@ const initialState = {
       height: 35,
       onClick: () => {
         window.open(
-          "https://portfolio.deri-kurniawan.vercel.app",
+          "https://portfolio.Tyrese-Song.vercel.app",
           "_blank",
           WIN_FEATURES
         );

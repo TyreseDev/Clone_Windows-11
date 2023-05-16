@@ -4,9 +4,9 @@
   "display": "standalone",
   "scope": "/",
   "start_url": "/",
-  "name": "Deri Kurniawan Desktop",
-  "short_name": "Deri's Desktop",
-  "description": "Deri Kurnniawan's Desktop Windows 11 OS Clone",
+  "name": "Tyrese Song Desktop",
+  "short_name": "Tyrese's Desktop",
+  "description": "Tyrese Kurnniawan's Desktop Windows 11 OS Clone",
   "icons": [
     {
       "src": "/icon-192x192.png",

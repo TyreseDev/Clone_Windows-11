@@ -39,12 +39,12 @@ import { motion } from "framer-motion";
 
 const blueprint = [
   {
-    name: "CV_DERI_KURNIAWAN.pdf",
+    name: "CV_Tyrese_Song.pdf",
     size: "1.68 MB",
     modify: "16/11/2021 13:44",
   },
   {
-    name: "RESUME_DERI_KURNIAWAN.pdf",
+    name: "RESUME_Tyrese_Song.pdf",
     size: "28.8 KB",
     modify: "25/11/2021 17:56",
   },
@@ -275,7 +275,7 @@ const FileExplorerApp = ({
                       className="hover:bg-white hover:bg-opacity-10"
                       onClick={() => {
                         window.open(
-                          `https://deri-kurniawan.w3spaces.com/${file.name}`,
+                          `https://Tyrese-Song.w3spaces.com/${file.name}`,
                           "_blank",
                           WIN_FEATURES
                         );
