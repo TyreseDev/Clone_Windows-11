@@ -255,12 +255,12 @@ const initialState = {
     },
     {
       name: "Portfolio",
-      icon: icons.apps.dkPortfolio,
+      icon: icons.apps.portfolio,
       width: 35,
       height: 35,
       onClick: () => {
         window.open(
-          "https://inspiring-panda-52a958.netlify.app/",
+          "https://full-stack-web-portfolio-tyresesong.netlify.app/",
           "_blank",
           WIN_FEATURES
         );
