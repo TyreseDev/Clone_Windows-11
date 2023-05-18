@@ -164,7 +164,7 @@ const LockScreen = () => {
               src={profileImage}
               alt="User Profile"
             />
-            <h1 className="mt-4 text-2xl font-semibold">Tyrese Song</h1>
+            <h1 className="mt-4 text-2xl font-semibold">Tyrese</h1>
             {loginIsSuccess ? (
               <div className="mt-3 flex flex-col items-center justify-center">
                 <div className="my-3 h-16 w-16 animate-spin rounded-full border-t-4 border-r-4 border-dotted border-white bg-transparent"></div>
@@ -250,7 +250,7 @@ const LockScreen = () => {
           className="absolute bottom-0 left-0 z-50 p-5"
         >
           <NotificationFrom
-            from="Tyrese Song"
+            from="Tyrese"
             image={profiles.tyrese}
             message={
               <>

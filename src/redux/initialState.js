@@ -35,7 +35,7 @@ const initialState = {
       height: 28,
       onClick: () => {
         const textMessage = encodeURIComponent(
-          "Hello Tyrese Song!, [your message here]"
+          "Hello Tyrese!, [your message here]"
         );
         window.open(
           `https://wa.me/+6285720959031?text=${textMessage}`,
@@ -143,7 +143,7 @@ const initialState = {
       height: 35,
       onClick: () => {
         const textMessage = encodeURIComponent(
-          "Hello Tyrese Song!, [your message here]"
+          "Hello Tyrese!, [your message here]"
         );
         window.open(
           `https://wa.me/+625720959031?text=${textMessage}`,
@@ -260,7 +260,7 @@ const initialState = {
       height: 35,
       onClick: () => {
         window.open(
-          "https://full-stack-web-portfolio-tyresesong.netlify.app/",
+          "https://full-stack-web-portfolio-ts.netlify.app/",
           "_blank",
           WIN_FEATURES
         );

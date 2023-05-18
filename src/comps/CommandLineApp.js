@@ -75,7 +75,7 @@ const CommandLineApp = ({
 
       if (command === "whatsapp") {
         const textMessage = encodeURIComponent(
-          "Hello Tyrese Song!, [your message here]"
+          "Hello Tyrese!, [your message here]"
         );
         window.open(
           `https://wa.me/+625720959031?text=${textMessage}`,

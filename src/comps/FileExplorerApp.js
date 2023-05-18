@@ -39,7 +39,7 @@ import { motion } from "framer-motion";
 
 const blueprint = [
   {
-    name: "Full Stack Web Developer Resume Of Tyrese Song.pdf",
+    name: "Full Stack Web Developer Resume Of Tyrese.pdf",
     size: "969 KB",
     modify: "05/13/2023 14:23",
   },

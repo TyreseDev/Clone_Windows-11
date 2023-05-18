@@ -4,9 +4,9 @@
   "display": "standalone",
   "scope": "/",
   "start_url": "/",
-  "name": "Tyrese Song Desktop",
+  "name": "Tyrese Desktop",
   "short_name": "Tyrese's Desktop",
-  "description": "Tyrese Song's Desktop Windows 11 OS Clone",
+  "description": "Tyrese's Desktop Windows 11 OS Clone",
   "icons": [
   ]
 }

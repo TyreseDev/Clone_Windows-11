@@ -1,4 +1,4 @@
-# Tyrese Song's Desktop Windows 11 OS Clone
+# Tyrese's Desktop Windows 11 OS Clone
 
 ![Mockup](./docs/images/mockup.png)
 
@@ -11,7 +11,7 @@
 [![License](https://img.shields.io/badge/License-MIT-blue)](#license)
 [![issues - Windows-11-OS-Clone](https://img.shields.io/github/issues/TyreseSong/Windows-11-OS-Clone)](https://github.com/TyreseSong/Windows-11-OS-Clone/issues)
 
-Deployed at Netlify - [https://windows-11-os-clone-tyresesong.netlify.app/](https://windows-11-os-clone-tyresesong.netlify.app/)
+Deployed at Netlify - [https://windows-11-os-clone-tyrese.netlify.app/](https://windows-11-os-clone-tyrese.netlify.app/)
 
 ## Credits
 
@@ -19,4 +19,4 @@ Special thanks to the givers of the sources listed on [CREDITS](https://github.c
 
 ## License
 
-Released under [MIT](/LICENSE) by [@TyreseSong](https://github.com/TyreseSong).
+Released under [MIT](/LICENSE) by [@Tyrese Song](https://github.com/TyreseSong).

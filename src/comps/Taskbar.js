@@ -81,7 +81,7 @@ const Taskbar = () => {
                 <div className="px-[2px]">
                   <AiOutlineWifi
                     size={19}
-                    title="Tyrese Song&#013;Internet access"
+                    title="Tyrese&#013;Internet access"
                   />
                 </div>
                 <div className="px-[2px]">
@@ -104,7 +104,7 @@ const Taskbar = () => {
                       <div className="grid place-content-center rounded-md border-[1px] border-gray-300 bg-transparent p-4 shadow-lg backdrop-blur-2xl backdrop-filter hover:bg-white/10">
                         <AiOutlineWifi size={19} />
                       </div>
-                      <p className="mt-1">Tyrese Song</p>
+                      <p className="mt-1">Tyrese</p>
                     </div>
                     <div>
                       <div className="grid place-content-center rounded-md border-[1px] border-gray-300 bg-transparent p-4 shadow-lg backdrop-blur-2xl backdrop-filter hover:bg-white/10">
