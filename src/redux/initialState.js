@@ -34,14 +34,10 @@ const initialState = {
       width: 28,
       height: 28,
       onClick: () => {
-        const textMessage = encodeURIComponent(
-          "Hello Tyrese!, [your message here]"
-        );
-        window.open(
-          `https://wa.me/+6285720959031?text=${textMessage}`,
-          "_blank",
-          WIN_FEATURES
-        );
+        // const textMessage = encodeURIComponent(
+        //   "Hello Tyrese!, [your message here]"
+        // );
+        window.open("", "_blank", WIN_FEATURES);
       },
     },
     {
@@ -50,11 +46,7 @@ const initialState = {
       width: 28,
       height: 28,
       onClick: () => {
-        window.open(
-          "https://www.google.com",
-          "_blank",
-          WIN_FEATURES
-        );
+        window.open("https://www.google.com", "_blank", WIN_FEATURES);
       },
     },
     {
@@ -94,11 +86,7 @@ const initialState = {
       width: 35,
       height: 35,
       onClick: () => {
-        window.open(
-          "https://www.google.com",
-          "_blank",
-          WIN_FEATURES
-        );
+        window.open("https://www.google.com", "_blank", WIN_FEATURES);
       },
     },
     {
@@ -107,11 +95,7 @@ const initialState = {
       width: 35,
       height: 35,
       onClick: () => {
-        window.open(
-          "https://github.com/TyreseSong",
-          "_blank",
-          WIN_FEATURES
-        );
+        window.open("https://github.com/TyreseOrg", "_blank", WIN_FEATURES);
       },
     },
     {
@@ -120,11 +104,7 @@ const initialState = {
       width: 35,
       height: 35,
       onClick: () => {
-        window.open(
-          "https://linkedin.com/in/TyreseSong",
-          "_blank",
-          WIN_FEATURES
-        );
+        window.open("", "_blank", WIN_FEATURES);
       },
     },
     {
@@ -142,14 +122,10 @@ const initialState = {
       width: 35,
       height: 35,
       onClick: () => {
-        const textMessage = encodeURIComponent(
-          "Hello Tyrese!, [your message here]"
-        );
-        window.open(
-          `https://wa.me/+625720959031?text=${textMessage}`,
-          "_blank",
-          WIN_FEATURES
-        );
+        // const textMessage = encodeURIComponent(
+        //   "Hello Tyrese!, [your message here]"
+        // );
+        window.open("", "_blank", WIN_FEATURES);
       },
     },
     {
@@ -204,7 +180,8 @@ const initialState = {
       icon: icons.apps.winMail,
       width: 35,
       height: 35,
-      onClick: () => (window.location.href = "mailto:bowenmanuel48@gmail.com"),
+      onClick: () =>
+        (window.location.href = "mailto:wizardlydeveloper@gmail.com"),
     },
     // {
     //   name: "Search",
@@ -247,7 +224,7 @@ const initialState = {
       height: 35,
       onClick: () => {
         window.open(
-          "https://github.com/TyreseSong/Windows-11-OS-Clone",
+          "https://github.com/TyreseOrg/Windows-11-OS-Clone_React",
           "_blank",
           WIN_FEATURES
         );
@@ -259,11 +236,7 @@ const initialState = {
       width: 35,
       height: 35,
       onClick: () => {
-        window.open(
-          "https://full-stack-web-portfolio-ts.netlify.app/",
-          "_blank",
-          WIN_FEATURES
-        );
+        window.open("https://tyrese.netlify.app/", "_blank", WIN_FEATURES);
       },
     },
   ],
