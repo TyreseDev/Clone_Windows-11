@@ -55,7 +55,7 @@ const CommandLineApp = ({
 
       if (command === "linkedin") {
         window.open(
-          "https://linkedin.com/in/TyreseSong",
+          "https://linkedin.com/in/TyreseOrg",
           "_blank",
           WIN_FEATURES
         );
@@ -64,11 +64,7 @@ const CommandLineApp = ({
       }
 
       if (command === "github") {
-        window.open(
-          "https://github.com/TyreseSong",
-          "_blank",
-          WIN_FEATURES
-        );
+        window.open("https://github.com/TyreseOrg", "_blank", WIN_FEATURES);
         output = "Opening GitHub Profile";
         ignoreDefaultError = true;
       }
@@ -157,7 +153,7 @@ const CommandLineApp = ({
             ? { width: width, height: height }
             : { width: "100vw", height: "93vh" }
         }
-        className="absolute z-10 overflow-hidden font-mono text-sm subpixel-antialiased leading-normal text-gray-100 bg-gray-800 rounded-md shadow-lg inverse-toggle"
+        className="inverse-toggle absolute z-10 overflow-hidden rounded-md bg-gray-800 font-mono text-sm leading-normal text-gray-100 subpixel-antialiased shadow-lg"
       >
         <div className="flex items-center justify-between bg-gray-900">
           <div
@@ -165,7 +161,7 @@ const CommandLineApp = ({
             id="draggable"
           >
             <div className="mr-2">
-              <img className="w-4 h-4" src={icons.apps.winCMD} alt="" />
+              <img className="h-4 w-4" src={icons.apps.winCMD} alt="" />
             </div>
             <p className="hidden md:block">{title}</p>
             <p className="md:hidden">Command Line</p>
@@ -181,7 +177,7 @@ const CommandLineApp = ({
               <BsDash />
             </div>
             <div
-              className="flex items-center p-3 ml-2 hover:bg-gray-600"
+              className="ml-2 flex items-center p-3 hover:bg-gray-600"
               title={maximized ? "Restore" : "Maximize"}
               onClick={() => {
                 dispatch(maximizeActiveWindow(id));
@@ -190,7 +186,7 @@ const CommandLineApp = ({
               {maximized ? <VscChromeRestore /> : <IoIosSquareOutline />}
             </div>
             <div
-              className="flex items-center p-3 ml-2 hover:bg-red-500"
+              className="ml-2 flex items-center p-3 hover:bg-red-500"
               title="Close"
               onClick={() => {
                 dispatch(removeActiveWindow(id));
@@ -200,7 +196,7 @@ const CommandLineApp = ({
             </div>
           </div>
         </div>
-        <div className="h-full px-2 pb-10 overflow-scroll ">
+        <div className="h-full overflow-scroll px-2 pb-10 ">
           <p className="mb-2">
             Microsoft Windows [version 10.0.22000.856] <br />
             (c) Microsoft Corporation. All rights reserved
@@ -217,7 +213,7 @@ const CommandLineApp = ({
                       <span className="text-green-400">
                         {line.currentDirectory}&gt;
                       </span>
-                      <span className="items-center flex-1 pl-2 typing">
+                      <span className="typing flex-1 items-center pl-2">
                         {line.command}
                       </span>
                     </div>
@@ -232,7 +228,7 @@ const CommandLineApp = ({
               {currentTerminalDirectory}&gt;
             </span>
             <input
-              className="items-center flex-1 pl-2 bg-transparent outline-none typing ring-0"
+              className="typing flex-1 items-center bg-transparent pl-2 outline-none ring-0"
               autoFocus={true}
               onKeyDown={onKeydownTerminalInput}
             />
