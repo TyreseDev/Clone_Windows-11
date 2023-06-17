@@ -25,7 +25,7 @@ const DesktopShortcutItem = ({
           width={width}
           height={height}
         />
-        <p className="text-center text-xs">{name}</p>
+        <p className="text-xs text-center">{name}</p>
         <FaExternalLinkSquareAlt
           size={13}
           color="white"
