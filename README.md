@@ -13,7 +13,7 @@
 [![License](https://img.shields.io/badge/License-MIT-blue)](#license)
 [![issues - Windows-11-OS-Clone_React](https://img.shields.io/github/issues/TyreseOrg/Windows-11-OS-Clone_React)](https://github.com/TyreseOrg/Windows-11-OS-Clone_React/issues)
 
-Deployed at Netlify - [https://windows-11-os-clone-tyrese.netlify.app/](https://windows-11-os-clone-tyrese.netlify.app/)
+Deployed at Netlify - [https://win11-clone-tyrese.netlify.app/](https://win11-clone-tyrese.netlify.app/)
 
 ## Credits
 
